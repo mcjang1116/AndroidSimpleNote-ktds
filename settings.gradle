@@ -1,0 +1,3 @@
+include ':app'
+include ':libraries:actionbarsherlock'
+include ':libraries:SlidingMenu-master:library'

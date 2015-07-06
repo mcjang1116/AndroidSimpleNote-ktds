@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">간편 메모장</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string-array name="menus">
+        <item>메모 보기</item>
+        <item>메모 등록</item>
+    </string-array>
+
+    <string name="CREATE_TABLE">
+        CREATE TABLE %1$s (
+            _ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            SUBJECT VARCHAR,
+            CONTENT VARCHAR,
+            CRT_DT TIMESTAMP,
+            MDFY_DT TIMESTAMP
+        )
+    </string>
+
+    <string name="DROP_TABLE">
+        DROP TABLE %1$s
+    </string>
+
+    <string name="INSERT_MEMO">
+        INSERT INTO %1$s (
+            SUBJECT, CONTENT, CRT_DT, MDFY_DT
+        )
+        VALUES (
+            %2$s, %3$s, %4$s, %5$s
+        )
+    </string>
+
+    <string name="SELECT_MEMO">
+        SELECT  _ID, SUBJECT, CONTENT, CRT_DT, MDFY_DT
+        FROM    %1$s
+        ORDER   BY _ID DESC
+    </string>
+
+    <string name="UPDATE_MEMO">
+        UPDATE  %1$s
+        SET     SUBJECT = %2$s
+                , CONTENT = %3$s
+                , MDFY_DT = %4$s
+        WHERE   _ID = %5$s
+    </string>
+
+    <string name="DELETE_MEMO">
+        DELETE
+        FROM    %1$s
+        WHERE   _ID = %2$s
+    </string>
+</resources>

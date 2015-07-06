@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Minchang/Downloads/SimpleNote/libraries/SlidingMenu-master/library/build/intermediates/exploded-aar/SimpleNote.libraries/actionbarsherlock/unspecified/res/values-w600dp-v13/values-w600dp-v13.xml -->
+    <eat-comment/>
+    <integer name="abs__max_action_buttons">5</integer>
+</resources>
